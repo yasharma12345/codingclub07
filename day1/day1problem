@@ -1,0 +1,50 @@
+//index page//
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+ <meta charset="UTF-8" />
+ <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+ <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+ <title>Life CAre RO SYSTEMS || Home</title>
+
+ <!-- font-awesome -->
+ <link rel="stylesheet" href="./fontawesome-free-5.12.1-web/css/all.min.css" />
+ <!-- custom css -->
+ <link rel="stylesheet" href="./css/styles.css" />
+</head>
+
+<body>
+  <!-- navbar -->
+  <!-- nav button -->
+  <span class="nav-btn" id="nav-btn">
+    <i class="fas fa-bars"></i>
+  </span>
+  <nav class="navbar" id="navbar">
+    <div class="navbar-header">
+      <span class="nav-close" id="nav-close">
+        <i class="fas fa-times"></i>
+      </span>
+    </div>
+    <ul class="nav-items">
+      <li><a href="index.html" class="nav-link">home</a></li>
+      <li><a href="skills.html" class="nav-link">skills</a></li>
+      <li><a href="contact.html" class="nav-link">order now</a></li>
+      <li><a href="products.html" class="nav-link">products</a></li>
+    </ul>
+  </nav>
+ <header class="header">
+  <div class="banner">
+   <h2>Let's Drink Fresh</h2>
+   <h1>
+    LIFE CARE <br />
+    RO SYSTEMS
+   </h1>
+  <h3 style="color: white;">ISO 9001 : 2008</h3>
+  <h3 style="color: white;">CERTIFIED COMPANY</h3>
+   <a href="products.html" class="btn banner-btn">
+    explore
+   </a>
+  </div>
+ </header>
+ <!-- end of header  -->
